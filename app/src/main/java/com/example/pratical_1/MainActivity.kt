@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val randomInt = (1..6).random()
         resultText.text = randomInt.toString()
 
-        Toast.makeText(this, "button clicked",
+        Toast.makeText(this, "dice rolled",
             Toast.LENGTH_SHORT).show()
 
     }
